@@ -4,6 +4,10 @@ https://github.com/jiantao2017/fileWriteWebpackPlugin
 ### write a file use webpackplugin
 
 
+### Get started
+npm install filewrite-webpackplugin --save-dev
+
+
 ### usage
   ```
  //webpack config
