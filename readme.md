@@ -1,3 +1,6 @@
+### source
+https://github.com/jiantao2017/fileWriteWebpackPlugin
+
 ### write a file use webpackplugin
 
 
@@ -9,5 +12,5 @@
       fileName:'test2.js',
       content:'var test=12123'
     })
-    
+
     ```

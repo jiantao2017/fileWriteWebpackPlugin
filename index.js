@@ -124,7 +124,9 @@ FileWriteWebpackPlugin.prototype.apply = function (compiler) {
         let promise = createDirectory(filePath);
         promise.then(function () {
 
-            writeFile(fileName,filePath,content);
+            writeFile(fileName,filePath,content).then(function () {
+                cb();
+            });
 
 
 

@@ -1,11 +1,14 @@
 {
-  "name": "fileWriteWebpackPlugin",
-  "version": "0.0.1",
-  "description": "",
+  "name": "filewrite-webpackplugin",
+  "version": "0.0.2",
+  "description": "a webplugin for filewrite",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "author": "zhoujiantao2017@gmail.com",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "keywords": []
+
 }
